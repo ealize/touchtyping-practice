@@ -1,0 +1,45 @@
+
+body {
+	font-family: sans-serif;
+	margin: 10px;
+}
+
+.hands {
+
+}
+
+#characters {
+	border: 1px solid #000;
+	height: 100px;
+	padding: 10px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+
+#characters .char {
+	display: inline-block;
+	padding: 2px;
+	margin: 1px;
+	color: #888888;
+}
+
+#characters .cursor {
+	background-color: #F2D494;
+	color: black;
+/*	-webkit-animation-name: blinker;  
+	-webkit-animation-iteration-count: infinite;  
+	-webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+	-webkit-animation-duration: 0.8s; 
+*/
+}
+/*
+@-webkit-keyframes blinker {  
+  from { background-color: white;}
+  to { background-color: #F2D494;}
+}
+*/
+
+.instructions {
+	margin-top: 50px;
+}
